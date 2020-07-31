@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+      <h1>Classify Music</h1>
+      Please provide a YouTube Music Video URL or Upload an Audio File (Mp3/.wav Format):
+      <br>
+      <br>
+      <form action = "/classify_audio" method = "POST" enctype = "multipart/form-data">
+          <div>
+              <input type="text" name="youtube_url"/>
+              <input type="submit" name="action" value="Submit">
+          </div>
+
+      </form>
+      <br>
+      <form action = "/classify_audio" method = "POST" enctype = "multipart/form-data">
+          <div>
+              <input type="file" name="audio_file"/>
+              <input type="submit" name="action" value="Upload">
+          </div>
+
+      </form>
+{% endblock content  %}
