@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I've come across many people that have difficulties determining the music genre of a song when compared to identifying song names/artists. I built Scriabin to alleviate people of this stress. More specifically, I constructed a Convolutional Neural Network that ingests the <a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"> Mel-frequency cepstrum coefficients </a> of audio snippets of songs which then returns a music genre prediction. The prediction is based on 10 possible genres (Blue, Classical, Country, Disco, Hip Hop, Jazz, Metal, Reggae and Rock). More importantly, my model exceeds <a href="https://arxiv.org/abs/1802.09697"> human accuracy</a> by 12%. 
+I've come across many people that have difficulties determining the music genre of a song when compared to identifying song names/artists. I built Scriabin to alleviate people of this stress. More specifically, I constructed a Convolutional Neural Network using **Tensorflow & Keras** that ingests the <a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"> Mel-frequency cepstrum coefficients </a> of audio snippets of songs which then returns a music genre prediction. The prediction is based on 10 possible genres (Blue, Classical, Country, Disco, Hip Hop, Jazz, Metal, Reggae and Rock). More importantly, my model exceeds <a href="https://arxiv.org/abs/1802.09697"> human accuracy</a> by 12%. 
 
 ## The Dataset
 
@@ -17,6 +17,17 @@ Example: MFCC Spectogram
 ![](mfcc_spectro.png)
 
 The information is commonly depicted with heat maps as observed above, with the intensity of the singal being represented by varying grades of color and brightness. MFCCs are derived, most importantly, by applying a <a href="https://en.wikipedia.org/wiki/Fourier_transform"> Fourier Transformation </a> over the audio file.
+
+## How is the model served?
+
+I currently serve the model via a simple Flask application. Users are prompted to provide a YouTube music video http link and Scriabin does the rest. 
+
+## How did you extract the MFCCs?
+
+I took advantage of <a href="https://librosa.org/doc/latest/index.html"> Librosa </a> which is a powerful Python package targeted towards audio analysis.
+
+## Project Structure:
+
 
 
 
