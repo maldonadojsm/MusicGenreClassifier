@@ -10,7 +10,7 @@ The model has been trained using the <a href="http://marsyas.info/downloads/data
 
 ## Why Mel-frequency Cepstrums Coefficients (MFCCs)?
 
-MFCCs are signal features that are extracted from audio. They are a representation of short-term power spectrum which measure the intensity of the energy of a signal in a finite time interval. MFCCs currently have popular applications in speech recognition systems or in systems that recognize numbers spoken into telephones. Most notably, MFCCs have had increased use in music information retrieval related to music genre classification given that the can measure the intensity of sound with a time interval that may be characteristic of a musical genre. For example, the intensity of sound in rock music is strong and consistent when compared with classical musical which usually starts soft and climaxes by the end of the piece.    
+MFCCs are signal features that are extracted from audio. They are a representation of short-term power spectrum which measure the intensity of the energy of a signal in a finite time interval. MFCCs currently have popular applications in speech recognition systems or in systems that recognize numbers spoken into telephones. Most notably, MFCCs have had increased use in music information retrieval related to music genre classification. They can measure the intensity of sound within a time interval that may be characteristic of a musical genre. For example, the intensity of sound in rock music is strong and consistent when compared with classical musical which usually starts soft and climaxes by the end of the piece.    
 
 Example: MFCC Spectogram
 
