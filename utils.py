@@ -68,7 +68,7 @@ def prepare_file(filepath):
 
 def perform_inference(audio_data) -> list:
     """
-    Performs inference, using pre-trained ML model and tokenizer from training, for submitted news article.
+    Performs inference, using pre-trained ML model, for submitted news YouTube music video.
     :param audio_data: Mel-frequency cepstral coefficients extracted audio file
     :return: Returns top three prediction classes for audio (float)
     """
