@@ -41,6 +41,11 @@ inferences.
 
 **6. models:** Trained model in .hdf5 format.
 
+**IMPORTANT: If you're having issues loading the Jupyter notebook in GitHub, copy the http link of notebook and paste in https://nbviewer.jupyter.org/**
+
+
+Have Fun!
+
 
 
 
