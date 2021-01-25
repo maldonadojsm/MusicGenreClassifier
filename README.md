@@ -16,9 +16,7 @@ Example: MFCC Spectogram
 
 ![](mfcc_spectro.png)
 
-The information is commonly depicted with heat maps as observed above, with the intensity of the singal being represented by varying grades of color and brightness.
-
-They are derived most importantly by applying a <a href="https://en.wikipedia.org/wiki/Fourier_transform"> Fourier Transformation </a> over the audio file.
+The information is commonly depicted with heat maps as observed above, with the intensity of the singal being represented by varying grades of color and brightness. MFCCs are derived, most importantly, by applying a <a href="https://en.wikipedia.org/wiki/Fourier_transform"> Fourier Transformation </a> over the audio file.
 
 
 
