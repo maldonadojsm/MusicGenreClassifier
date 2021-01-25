@@ -12,7 +12,9 @@ The model has been trained using the <a href="http://marsyas.info/downloads/data
 
 Spectrograms are visual representations of the spectrum of frequencies of signal as it varies throught time. When applied to audio, they are usually known as sonographs, voiceprints, or voicegrams:
 
-For example, here is the spectrogram of the spoken words "nineteenth century"
+For example, here is the spectrogram of the spoken words "nineteenth century":
+
+![alt text](https://en.wikipedia.org/wiki/Spectrogram#/media/File:Spectrogram-19thC.png "Spectrogram")
 
 
 
