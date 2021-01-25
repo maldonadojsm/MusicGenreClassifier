@@ -29,10 +29,16 @@ I took advantage of <a href="https://librosa.org/doc/latest/index.html"> Librosa
 ## Project Structure:
 
 **1. analyze_data.ipynb:** Here I do bit of exploratory data analysis over the Marsyas dataset, more specifically looking at the wavelengths, spectrogram and mfcc spectrogram of the audio files.
+
 **2. preprocess_data.ipynb:** In this notebook, I extract and store the MFCCs of every audio file in the Marsyas dataset.
+
 **3. train_network.ipynb:** Split training, validation and test set, define CNN architecture, train and evalute.
-**4. utils.py:** Utilities I use to perform inference, YouTube file retrieval and data transformations (Extract MFCCs) needed to perform inferences.
+
+**4. utils.py:** Utilities I use to perform inference, YouTube file retrieval and data transformations (Extract MFCCs) needed to perform 
+inferences.
+
 **5. app:** The Flask application.
+
 **6. models:** Trained model in .hdf5 format.
 
 
