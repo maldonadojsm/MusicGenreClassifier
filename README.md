@@ -32,7 +32,7 @@ I took advantage of <a href="https://librosa.org/doc/latest/index.html"> Librosa
 
 **2. preprocess_data.ipynb:** In this notebook, I extract and store the MFCCs of every audio file in the Marsyas dataset.
 
-**3. train_network.ipynb:** Split training, validation and test set, define CNN architecture, train and evalute.
+**3. train_network.ipynb:** Split training, validation and test set, define CNN architecture, train and evaluate.
 
 **4. utils.py:** Utilities I use to perform inference, YouTube file retrieval and data transformations (Extract MFCCs) needed to perform 
 inferences.
