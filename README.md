@@ -1,4 +1,4 @@
-## Scriabin
+## Scriabin - A Musice Genre Classifier
 
 # Introduction
 
