@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I've come across many people that have difficulties determining the music genre of a song when compared to identifying song names/artists. I built Scriabin to alleviate people of this stress. More specifically, I constructed a Convolutional Neural Network using **Tensorflow & Keras** that ingests the <a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"> Mel-frequency cepstrum coefficients </a> of audio snippets of songs which then returns a music genre prediction. The prediction is based on 10 possible genres (Blue, Classical, Country, Disco, Hip Hop, Jazz, Metal, Reggae and Rock). More importantly, my model exceeds <a href="https://arxiv.org/abs/1802.09697"> human accuracy</a> by 12%. 
+I've come across many people that have difficulties determining the music genre of a song when compared to identifying song names/artists. I built Scriabin to alleviate people of this stress. More specifically, I constructed a Convolutional Neural Network using **Tensorflow & Keras** that ingests the <a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum"> Mel-frequency cepstrum coefficients </a> of audio snippets of songs which then returns a music genre prediction. The prediction is based on 10 possible genres (Blue, Classical, Country, Disco, Hip Hop, Jazz, Metal, Reggae and Rock). More importantly, my model **exceeds <a href="https://arxiv.org/abs/1802.09697"> human accuracy</a> by 12%.** 
 
 ## The Dataset
 
@@ -27,6 +27,13 @@ I currently serve the model via a simple Flask application. Users are prompted t
 I took advantage of <a href="https://librosa.org/doc/latest/index.html"> Librosa </a> which is a powerful Python package targeted towards audio analysis.
 
 ## Project Structure:
+
+**1. analyze_data.ipynb:** Here I do bit of exploratory data analysis over the Marsyas dataset, more specifically looking at the wavelengths, spectrogram and mfcc spectrogram of the audio files.
+**2. preprocess_data.ipynb:** In this notebook, I extract and store the MFCCs of every audio file in the Marsyas dataset.
+**3. train_network.ipynb:** Split training, validation and test set, define CNN architecture, train and evalute.
+**4. utils.py:** Utilities I use to perform inference, YouTube file retrieval and data transformations (Extract MFCCs) needed to perform inferences.
+**5. app:** The Flask application.
+**6. models:** Trained model in .hdf5 format.
 
 
 
